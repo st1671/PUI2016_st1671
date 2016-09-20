@@ -27,5 +27,13 @@ with open(busn,'w') as csvfile:
         lon = str(Location[u'Longitude'])
         stname = str(vehicleact[i][u'MonitoredVehicleJourney'][u'MonitoredCall'][u'StopPointName'])
         ststat = str(vehicleact[i][u'MonitoredVehicleJourney'][u'OnwardCalls'][u'OnwardCall'][0][u'Extensions'][u'Distances'][u'PresentableDistance'])
+        if stname == "":
+            stname = "N/A"
+        else:
+            pass
+        if ststat == "":
+            ststat = "N/A"
+        else:
+            pass
         writer.writerow({'Latitude':lat, 'Longtitude':lon, 'Stop Name':stname, 'Stop Status':ststat })
 
