@@ -6,7 +6,7 @@ In the second part, we have a chance to practice our knowlege of different stati
 The paper I chooses was a reseach about the association between snuff using and endothelial functions.
 The research result turn out to be snuff using will reduce endothelial functions, the it is an ancova reseach
 include one independent varialble one dependet varilale and several control variables. The main control variable
-is age, while the researcher also include income in the reseach.
+is age, while the researcher also include income in the reseach. In this part I worked with Hongting Chen.
 
 In the third part we perform z-test and chi-square test on same dataset, the progress was shown in the code.
 Even though we do diffrent type pf test, the conclusion was same, we cannot reject the null hypothesis, the result didn't
